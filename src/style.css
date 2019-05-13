@@ -1,3 +1,40 @@
-.hello {
-  color: red;
+h1,h2,h3,h4 {
+  margin: 0;
+
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+.container {
+  margin-bottom: 1.2em;
+  border-bottom: 1px solid #000
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+
+#profile-pic {
+  margin: 10px 40px 0 0;
+  border-radius: 5px;
+}
+
+.under-name{
+  display: flex;
+  justify-content: space-around;
+}
+
+li {
+  list-style: none;
+}
+
+.work > ul > li {
+    padding-bottom: 1em;
+}
+
+.education {
+  border: none;
 }
